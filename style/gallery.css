@@ -1,11 +1,12 @@
 body {
+      /*
       background-repeat:no-repeat;
       background-attachment:fixed;
       background-size:cover;
+      */
       font-family: 'Century Gothic';
       background-color: blue;
 }
-/*-----------Registration-----------*/
 #main{
   margin:auto;
   left: 0px;
@@ -44,10 +45,15 @@ body {
 }
 #content{
   width: 1000px;
-  background-color: green;  
+  background: rgba(10,10,10, 0.85);
+  margin-top: 30px;
+}
+#content h3{
+  margin-top: 20px;x
 }
 #ph img{
   width: 70%;
+  margin: 20px;
 }
 
 #footer{

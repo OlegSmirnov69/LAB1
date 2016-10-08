@@ -42,7 +42,7 @@ body {
 #pages{
   float: left;
 }
-#content{
+#mnms_content{
   margin-top: 100px;
   width: 1000px;
   background-color: green;
@@ -95,7 +95,7 @@ body {
   margin: 20px;
   margin-top: -220px;
 }
-#content img{
+#mnms_content img{
   width: 150px;
   height: 150px;
   margin: 20px;
