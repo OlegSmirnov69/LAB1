@@ -6,7 +6,7 @@ body {
       font-family: 'Century Gothic';
       background-color: blue;
 }
-/*-----------BASIC-----------*/
+/*|||||||||||||||||||||||BASIC|||||||||||||||||||||||*/
 #main{
   margin:auto;
   left: 0px;
@@ -21,7 +21,7 @@ body {
   padding-right: 10px;
   border-width: 3 px;
   border-style: solid;
-  border-color: black;
+  border-color: rgb(100,100,100);
   right: 0px;
   left: 0px;
   top: 0px;
@@ -52,7 +52,7 @@ body {
   margin-bottom: 0px;
   border-width: 3 px;
   border-style: solid;
-  border-color: red;
+  border-color: rgb(100,100,100);
   right: 0px;
   left: 0px;
   height: 20px;
@@ -67,11 +67,11 @@ body {
 #footer a:hover{
   color: grey;
 }
-/*-----------MAIN-----------*/
+/*|||||||||||||||||||||||||MAIN|||||||||||||||||||||||*/
 #main_content{
   width: 1000px;
   background: rgba(10,10,10, 0.9);
-  text-align: left;
+  text-align: justify;
   padding-top: 50px;
   color: rgb(200,200,200);
 }
@@ -89,6 +89,7 @@ body {
   padding: 5px;
   border-style: solid;
   border-width: 1px;
+  margin-left: 10px;
 }
 #img2{
   float: right;
@@ -98,6 +99,7 @@ body {
   padding: 5px;
   border-style: solid;
   border-width: 1px;
+  margin-left: 10px;
 }
 #info{
   padding: 60px;
@@ -113,6 +115,7 @@ body {
 }
 #info a{
   text-decoration: none;
+  color: rgb(132,195,190);
 }
 #info a:visited{
   color: rgb(132,195,190);
@@ -120,7 +123,10 @@ body {
 #info a:hover{
   text-decoration: underline;
 }
-/*------------------REGISTRATION--------------------*/
+#main p::selection {
+background: #ffb7b7;
+}
+/*|||||||||||||||||||||||REGISTRATION|||||||||||||||||||||||*/
 #reg_content{
   background: rgba(10,10,10, 0.7); 
   width: 1000px;
@@ -140,39 +146,67 @@ body {
   border-width: 3px;
   border-color: grey;
 }
-/*------------------M&M's--------------------*/
+/*|||||||||||||||||||||||M&M's|||||||||||||||||||||||*/
 #mnms_content{
   margin-top: 100px;
   width: 1000px;
   background: rgba(10,10,10, 0.85);
-}
-#pet{
-  width: 200px;
-  height: 200px;
-  background-color: yellow;
-  top: 0px;
-  float: left;
-  margin: 20px;
-  margin-top: 0px;
-}
-#svi{
-  width: 200px;
-  height: 200px;
-  background-color: lime;
-  top: 0px;
-  margin: 20px;
-}
-#uha{
-  width: 200px;
-  height: 200px;
-  float: right;
-  background-color: red;
-  top: 0px;
-  margin: 20px;
-  margin-top: -220px;
+  color: white;
+  padding: 50px;
 }
 #mnms_content img{
-  width: 150px;
-  height: 150px;
-  margin: 20px;
+  width: 200px;
+  height: 270px;
+}
+#mnms_content td{
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+}
+/*|||||||||||||||||||||||PHOTO|||||||||||||||||||||||*/
+#photo_content .prev{
+    width: 10%; 
+    background: #ccc;
+    float: left;
+    height: 610px;
+}
+#photo_content .next{
+    width: 10%; 
+    background: #ccc;
+    float: right;;
+    height: 610px;
+}
+#photo_content .ph_img{
+  width: 79%;
+  
+  background: #e4e; 
+}
+#photo_content .ph_img img{
+
+  height: 610px;
+}
+/*|||||||||||||||||||||||ADMIN|||||||||||||||||||||||*/
+#admin_content {
+  width: 1000px;
+  background-color: grey;
+  margin-top: 40px;
+  padding: 20px;
+}
+#admin_content .avatar{
+  width: 300px;
+  height: 300px;  
+  float: left;
+  background-color: yellow;   
+}
+#admin_content .inf_about{
+  width: 600px;
+  height: 300px;
+  float: right;
+  background-color: green;
+}
+#admin_content .photos{
+  width: 1000px;
+  height: 500px;
+  background-color: red;
+  position: 
 }
